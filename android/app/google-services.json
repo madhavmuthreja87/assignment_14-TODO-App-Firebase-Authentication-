@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "51908180369",
+    "project_id": "tasks-c8da2",
+    "storage_bucket": "tasks-c8da2.firebasestorage.app"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:51908180369:android:64e12870925bc5fc344230",
+        "android_client_info": {
+          "package_name": "com.example.crud_todo"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCFihazpxV0k0ZWvu7ROxj2vtwWKflOmzU"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
