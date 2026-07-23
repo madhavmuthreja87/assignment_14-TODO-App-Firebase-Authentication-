@@ -28,15 +28,15 @@ class MyApp extends StatelessWidget {
   }
 }
 
-// class AuthCheck extends StatelessWidget {
-//   const AuthCheck({super.key});
+class AuthCheck extends StatelessWidget {
+  const AuthCheck({super.key});
 
-//   @override
-//   Widget build(BuildContext context) {
-//     if (FirebaseAuth.instance.currentUser != null) {
-//       return HomePage();
-//     } else {
-//       return SignUp();
-//     }
-//   }
-// }
+  @override
+  Widget build(BuildContext context) {
+    if (FirebaseAuth.instance.currentUser != null) {
+      return HomePage();
+    } else {
+      return SignUp();
+    }
+  }
+}

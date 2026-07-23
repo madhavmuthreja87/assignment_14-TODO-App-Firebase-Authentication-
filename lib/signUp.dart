@@ -70,7 +70,7 @@ class _SignUpState extends State<SignUp> {
           children: [
             Container(
               width: MediaQuery.of(context).size.width,
-              height: MediaQuery.of(context).size.height / 2.5,
+              height: MediaQuery.of(context).size.height / 3,
               decoration: BoxDecoration(
                 gradient: LinearGradient(
                   begin: Alignment.topLeft,
@@ -182,7 +182,7 @@ class _SignUpState extends State<SignUp> {
                                 SizedBox(height: 20),
 
                                 SizedBox(height: 55),
-                                Material( 
+                                Material(
                                   child: InkWell(
                                     borderRadius: BorderRadius.circular(18),
                                     splashColor: const Color.fromARGB(
